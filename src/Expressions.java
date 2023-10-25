@@ -23,7 +23,7 @@ public class Expressions {
 
   // Given a valid infix expression, return the equivalent postfix expression
   //
-  // e.inToPost("2 * ( ( 3 + 4 ) / 2 - 6 )")) returns "2 3 4 + 2 6 - / *"
+  // e.inToPost("2 * 3")) returns "3 2 *"
   //
   // Precondition: infix has at least one space between each token. This means
   // you do not have to tokenize infix expressions into integers, parenthesis, and
