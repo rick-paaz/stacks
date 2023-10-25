@@ -1,14 +1,13 @@
 /**
- * This class contains two method stubs dealing with infix and postfix
- * expressions
+ * This class contains two method stubs dealing with infix and postfix expressions
  * 
  * @author Rick Mercer and YOUR NAME
  */
 
 public class Expressions {
 
-  // Return the value of a valid postfix expression. If not valid, there may
-  // be an EmptyStackException thrown
+  // Return the value of a valid postfix expression. If post is not valid, 
+  // there could be an EmptyStackException thrown.  We have assertions for this.
   //
   // valueOf("2 2 +") returns 4
   // valueOf("15 4 % 5 %") returns 3
